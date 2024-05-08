@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         let button = UIButton()
         let label = UILabel()
         
-        button.tintColor = .darkGray
+        button.tintColor = .white
         label.text = "Hello, surfer's"
         view.addSubview(label)
     }
