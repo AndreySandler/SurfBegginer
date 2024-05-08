@@ -11,6 +11,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        // MARK: -  Greeting
+        let label = UILabel()
+        label.text = "Hello, surfer's"
+        view.addSubview(label)
     }
 }
-
