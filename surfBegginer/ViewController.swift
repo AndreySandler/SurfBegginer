@@ -13,7 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         
-        // MARK: -  Greeting
+        // MARK: -  Greeting refactoring
         let label = UILabel()
         label.text = "Hello, surfer's"
         view.addSubview(label)
