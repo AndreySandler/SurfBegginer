@@ -8,10 +8,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    // MARK: - Override methods
     override func viewDidLoad() {
-        
-        // MARK: - Override methods
         super.viewDidLoad()
         
         
@@ -19,7 +18,8 @@ class ViewController: UIViewController {
         let button = UIButton()
         let label = UILabel()
         
-        button.tintColor = .darkGray
+        // MARK: - What are thoose
+        button.tintColor = .red
         label.text = "Hello, surfer's"
         view.addSubview(label)
     }
