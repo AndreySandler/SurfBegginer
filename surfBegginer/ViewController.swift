@@ -15,11 +15,8 @@ class ViewController: UIViewController {
         
         
         // MARK: -  Greeting refactoring
-        let button = UIButton()
         let label = UILabel()
-        
-        // MARK: - What are thoose
-        button.tintColor = .red
+
         label.text = "Hello, surfer's"
         view.addSubview(label)
     }
