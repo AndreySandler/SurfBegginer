@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         
-        // MARK: -  Greeting refactoring
+        // MARK: -  Greeting for surfers
         let label = UILabel()
 
         label.text = "Hello, surfer's"
