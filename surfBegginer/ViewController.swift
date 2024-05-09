@@ -16,10 +16,8 @@ class ViewController: UIViewController {
         
         // MARK: -  Greeting for surfers
         let label = UILabel()
-        let button = UIButton()
-        
-        button.tintColor = .darkGray
-        label.text = "Hello, surfers"
+
+        label.text = "Hello, surfer's"
         view.addSubview(label)
     }
 }
