@@ -14,12 +14,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         
-        // MARK: -  Greeting refactoring
+        // MARK: -  Greeting for surfers
         let label = UILabel()
         let button = UIButton()
         
         button.tintColor = .darkGray
-        label.text = "Hello, surfer's"
+        label.text = "Hello, surfers"
         view.addSubview(label)
     }
 }
